@@ -22,3 +22,12 @@ DataValidationConfig = namedtuple(
     ]
 )
 
+
+DataTransformationConfig = namedtuple(
+    "DataTransformationConfig",
+    [
+        "clean_data_file_path",
+        "transformed_data_dir"
+    ]
+) 
+
