@@ -32,7 +32,8 @@ list_of_files = [
     ".dockerignore",
     "app.py",
     "Dockerfile",
-    "setup.py"
+    "setup.py",
+    "main.py"
 ]
 
 
