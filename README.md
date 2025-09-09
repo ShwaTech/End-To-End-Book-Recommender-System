@@ -27,3 +27,13 @@ conda activate books
 ```bash
 pip install -r requirements.txt
 ```
+
+#### Project Workflow
+
+- config.yaml
+- entity
+- config/configuration.py
+- components
+- pipeline
+- main.py
+- app.py
