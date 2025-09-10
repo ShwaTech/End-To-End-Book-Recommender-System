@@ -37,3 +37,9 @@ pip install -r requirements.txt
 - pipeline
 - main.py
 - app.py
+
+### Run Streamlit App ->
+
+```bash
+streamlit run app.py
+```
