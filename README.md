@@ -72,7 +72,7 @@ git clone https://github.com/ShwaTech/End-To-End-Book-Recommender-System.git
 ```
 
 ```bash
-docker build -t shwacode/stapp:latest . 
+docker build -t shwacode/bookapp:latest . 
 ```
 
 ```bash
@@ -80,7 +80,7 @@ docker images -a
 ```
 
 ```bash
-docker run -d -p 8501:8501 shwacode/stapp 
+docker run -d -p 8501:8501 shwacode/bookapp 
 ```
 
 ```bash
@@ -100,13 +100,13 @@ docker login
 ```
 
 ```bash
-docker push shwacode/stapp:latest 
+docker push shwacode/bookapp:latest 
 ```
 
 ```bash
-docker rmi shwacode/stapp:latest
+docker rmi shwacode/bookapp:latest
 ```
 
 ```bash
-docker pull shwacode/stapp
+docker pull shwacode/bookapp
 ```
